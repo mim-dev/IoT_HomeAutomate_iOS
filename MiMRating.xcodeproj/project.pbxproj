@@ -13,16 +13,16 @@
 		5EA4B96E192036E500E4E804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B96C192036E500E4E804 /* InfoPlist.strings */; };
 		5EA4B970192036E500E4E804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B96F192036E500E4E804 /* main.m */; };
 		5EA4B974192036E500E4E804 /* MIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B973192036E500E4E804 /* MIMAppDelegate.m */; };
-		5EA4B977192036E500E4E804 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B975192036E500E4E804 /* Main_iPhone.storyboard */; };
-		5EA4B97A192036E500E4E804 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B978192036E500E4E804 /* Main_iPad.storyboard */; };
-		5EA4B97D192036E500E4E804 /* MIMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B97C192036E500E4E804 /* MIMFirstViewController.m */; };
-		5EA4B980192036E500E4E804 /* MIMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B97F192036E500E4E804 /* MIMSecondViewController.m */; };
 		5EA4B982192036E500E4E804 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B981192036E500E4E804 /* Images.xcassets */; };
 		5EA4B989192036E500E4E804 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4B988192036E500E4E804 /* XCTest.framework */; };
 		5EA4B98A192036E500E4E804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4B963192036E500E4E804 /* Foundation.framework */; };
 		5EA4B98B192036E500E4E804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4B967192036E500E4E804 /* UIKit.framework */; };
 		5EA4B993192036E600E4E804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B991192036E600E4E804 /* InfoPlist.strings */; };
 		5EA4B995192036E600E4E804 /* MiMRatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B994192036E600E4E804 /* MiMRatingTests.m */; };
+		5EA4B9A8192037DB00E4E804 /* MIMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A0192037DB00E4E804 /* MIMFirstViewController.m */; };
+		5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A2192037DB00E4E804 /* MIMSecondViewController.m */; };
+		5EA4B9AA192037DB00E4E804 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A4192037DB00E4E804 /* Main_iPad.storyboard */; };
+		5EA4B9AB192037DB00E4E804 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +46,18 @@
 		5EA4B971192036E500E4E804 /* MiMRating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiMRating-Prefix.pch"; sourceTree = "<group>"; };
 		5EA4B972192036E500E4E804 /* MIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMAppDelegate.h; sourceTree = "<group>"; };
 		5EA4B973192036E500E4E804 /* MIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMAppDelegate.m; sourceTree = "<group>"; };
-		5EA4B976192036E500E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		5EA4B979192036E500E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		5EA4B97B192036E500E4E804 /* MIMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMFirstViewController.h; sourceTree = "<group>"; };
-		5EA4B97C192036E500E4E804 /* MIMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMFirstViewController.m; sourceTree = "<group>"; };
-		5EA4B97E192036E500E4E804 /* MIMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIMSecondViewController.h; sourceTree = "<group>"; };
-		5EA4B97F192036E500E4E804 /* MIMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIMSecondViewController.m; sourceTree = "<group>"; };
 		5EA4B981192036E500E4E804 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5EA4B987192036E500E4E804 /* MiMRatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiMRatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA4B988192036E500E4E804 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5EA4B990192036E500E4E804 /* MiMRatingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiMRatingTests-Info.plist"; sourceTree = "<group>"; };
 		5EA4B992192036E600E4E804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EA4B994192036E600E4E804 /* MiMRatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiMRatingTests.m; sourceTree = "<group>"; };
+		5EA4B99F192037DB00E4E804 /* MIMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMFirstViewController.h; sourceTree = "<group>"; };
+		5EA4B9A0192037DB00E4E804 /* MIMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMFirstViewController.m; sourceTree = "<group>"; };
+		5EA4B9A1192037DB00E4E804 /* MIMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMSecondViewController.h; sourceTree = "<group>"; };
+		5EA4B9A2192037DB00E4E804 /* MIMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMSecondViewController.m; sourceTree = "<group>"; };
+		5EA4B9A5192037DB00E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5EA4B9A7192037DB00E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +117,10 @@
 		5EA4B969192036E500E4E804 /* MiMRating */ = {
 			isa = PBXGroup;
 			children = (
+				5EA4B99E192037DB00E4E804 /* Controllers */,
+				5EA4B9A3192037DB00E4E804 /* Storyboards */,
 				5EA4B972192036E500E4E804 /* MIMAppDelegate.h */,
 				5EA4B973192036E500E4E804 /* MIMAppDelegate.m */,
-				5EA4B975192036E500E4E804 /* Main_iPhone.storyboard */,
-				5EA4B978192036E500E4E804 /* Main_iPad.storyboard */,
-				5EA4B97B192036E500E4E804 /* MIMFirstViewController.h */,
-				5EA4B97C192036E500E4E804 /* MIMFirstViewController.m */,
-				5EA4B97E192036E500E4E804 /* MIMSecondViewController.h */,
-				5EA4B97F192036E500E4E804 /* MIMSecondViewController.m */,
 				5EA4B981192036E500E4E804 /* Images.xcassets */,
 				5EA4B96A192036E500E4E804 /* Supporting Files */,
 			);
@@ -158,6 +154,26 @@
 				5EA4B991192036E600E4E804 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EA4B99E192037DB00E4E804 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B99F192037DB00E4E804 /* MIMFirstViewController.h */,
+				5EA4B9A0192037DB00E4E804 /* MIMFirstViewController.m */,
+				5EA4B9A1192037DB00E4E804 /* MIMSecondViewController.h */,
+				5EA4B9A2192037DB00E4E804 /* MIMSecondViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EA4B9A3192037DB00E4E804 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9A4192037DB00E4E804 /* Main_iPad.storyboard */,
+				5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +224,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Moose In The Mist, INC";
 				TargetAttributes = {
+					5EA4B95F192036E500E4E804 = {
+						DevelopmentTeam = 4EWY2RRRQ3;
+					};
 					5EA4B986192036E500E4E804 = {
 						TestTargetID = 5EA4B95F192036E500E4E804;
 					};
@@ -237,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA4B97A192036E500E4E804 /* Main_iPad.storyboard in Resources */,
+				5EA4B9AA192037DB00E4E804 /* Main_iPad.storyboard in Resources */,
+				5EA4B9AB192037DB00E4E804 /* Main_iPhone.storyboard in Resources */,
 				5EA4B982192036E500E4E804 /* Images.xcassets in Resources */,
-				5EA4B977192036E500E4E804 /* Main_iPhone.storyboard in Resources */,
 				5EA4B96E192036E500E4E804 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA4B9A8192037DB00E4E804 /* MIMFirstViewController.m in Sources */,
 				5EA4B974192036E500E4E804 /* MIMAppDelegate.m in Sources */,
-				5EA4B97D192036E500E4E804 /* MIMFirstViewController.m in Sources */,
-				5EA4B980192036E500E4E804 /* MIMSecondViewController.m in Sources */,
+				5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */,
 				5EA4B970192036E500E4E804 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,28 +312,28 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5EA4B975192036E500E4E804 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EA4B976192036E500E4E804 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		5EA4B978192036E500E4E804 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EA4B979192036E500E4E804 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		5EA4B991192036E600E4E804 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5EA4B992192036E600E4E804 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5EA4B9A4192037DB00E4E804 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA4B9A5192037DB00E4E804 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA4B9A7192037DB00E4E804 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -397,10 +416,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiMRating/MiMRating-Prefix.pch";
 				INFOPLIST_FILE = "MiMRating/MiMRating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,10 +433,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiMRating/MiMRating-Prefix.pch";
 				INFOPLIST_FILE = "MiMRating/MiMRating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
