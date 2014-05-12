@@ -23,6 +23,8 @@
 		5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A2192037DB00E4E804 /* MIMSecondViewController.m */; };
 		5EA4B9AA192037DB00E4E804 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A4192037DB00E4E804 /* Main_iPad.storyboard */; };
 		5EA4B9AB192037DB00E4E804 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */; };
+		5EA4B9B41920475100E4E804 /* MIMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9B31920475100E4E804 /* MIMLocationManager.m */; };
+		5EA4B9B6192048D200E4E804 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4B9B5192048D200E4E804 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		5EA4B9A2192037DB00E4E804 /* MIMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMSecondViewController.m; sourceTree = "<group>"; };
 		5EA4B9A5192037DB00E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		5EA4B9A7192037DB00E4E804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5EA4B9B21920475100E4E804 /* MIMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMLocationManager.h; sourceTree = "<group>"; };
+		5EA4B9B31920475100E4E804 /* MIMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMLocationManager.m; sourceTree = "<group>"; };
+		5EA4B9B5192048D200E4E804 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA4B9B6192048D200E4E804 /* CoreLocation.framework in Frameworks */,
 				5EA4B966192036E500E4E804 /* CoreGraphics.framework in Frameworks */,
 				5EA4B968192036E500E4E804 /* UIKit.framework in Frameworks */,
 				5EA4B964192036E500E4E804 /* Foundation.framework in Frameworks */,
@@ -106,6 +112,7 @@
 		5EA4B962192036E500E4E804 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5EA4B9B5192048D200E4E804 /* CoreLocation.framework */,
 				5EA4B963192036E500E4E804 /* Foundation.framework */,
 				5EA4B965192036E500E4E804 /* CoreGraphics.framework */,
 				5EA4B967192036E500E4E804 /* UIKit.framework */,
@@ -119,6 +126,7 @@
 			children = (
 				5EA4B99E192037DB00E4E804 /* Controllers */,
 				5EA4B9A3192037DB00E4E804 /* Storyboards */,
+				5EA4B9B01920474100E4E804 /* Utilities */,
 				5EA4B972192036E500E4E804 /* MIMAppDelegate.h */,
 				5EA4B973192036E500E4E804 /* MIMAppDelegate.m */,
 				5EA4B981192036E500E4E804 /* Images.xcassets */,
@@ -174,6 +182,23 @@
 				5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5EA4B9B01920474100E4E804 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9B11920474100E4E804 /* LocationManager */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5EA4B9B11920474100E4E804 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9B21920475100E4E804 /* MIMLocationManager.h */,
+				5EA4B9B31920475100E4E804 /* MIMLocationManager.m */,
+			);
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EA4B9B41920475100E4E804 /* MIMLocationManager.m in Sources */,
 				5EA4B9A8192037DB00E4E804 /* MIMFirstViewController.m in Sources */,
 				5EA4B974192036E500E4E804 /* MIMAppDelegate.m in Sources */,
 				5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */,
@@ -504,6 +530,7 @@
 				5EA4B99A192036E600E4E804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EA4B99B192036E600E4E804 /* Build configuration list for PBXNativeTarget "MiMRatingTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +539,7 @@
 				5EA4B99D192036E600E4E804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

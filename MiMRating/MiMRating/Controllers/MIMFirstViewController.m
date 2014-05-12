@@ -7,7 +7,6 @@
 //
 
 #import "MIMFirstViewController.h"
-#import "MIMLocationManager.h"
 
 @interface MIMFirstViewController ()
 
