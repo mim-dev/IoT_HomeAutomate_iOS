@@ -25,6 +25,22 @@
 		5EA4B9AB192037DB00E4E804 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4B9A6192037DB00E4E804 /* Main_iPhone.storyboard */; };
 		5EA4B9B41920475100E4E804 /* MIMLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9B31920475100E4E804 /* MIMLocationManager.m */; };
 		5EA4B9B6192048D200E4E804 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA4B9B5192048D200E4E804 /* CoreLocation.framework */; };
+		5EA4B9DD192061C300E4E804 /* NSString+RestServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9BD192061C300E4E804 /* NSString+RestServiceManager.m */; };
+		5EA4B9DE192061C300E4E804 /* RSMBaseResultParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9C0192061C300E4E804 /* RSMBaseResultParser.m */; };
+		5EA4B9DF192061C300E4E804 /* RSMHHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9C2192061C300E4E804 /* RSMHHTTPConnection.m */; };
+		5EA4B9E0192061C300E4E804 /* RSMServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9C4192061C300E4E804 /* RSMServices.m */; };
+		5EA4B9E1192061C300E4E804 /* RSMServicesError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9C6192061C300E4E804 /* RSMServicesError.m */; };
+		5EA4B9E2192061C300E4E804 /* RSMBaseNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9CA192061C300E4E804 /* RSMBaseNetworkService.m */; };
+		5EA4B9E3192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9CE192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m */; };
+		5EA4B9E4192061C300E4E804 /* RSMAsyncParserServiceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9D1192061C300E4E804 /* RSMAsyncParserServiceMethod.m */; };
+		5EA4B9E5192061C300E4E804 /* RSMBaseServiceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9D4192061C300E4E804 /* RSMBaseServiceMethod.m */; };
+		5EA4B9E6192061C300E4E804 /* RSMConcurrentServiceMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9D6192061C300E4E804 /* RSMConcurrentServiceMethod.m */; };
+		5EA4B9E7192061C300E4E804 /* RSMServiceOperationInvocationList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9D9192061C300E4E804 /* RSMServiceOperationInvocationList.m */; };
+		5EA4B9E8192061C300E4E804 /* RSMUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9DB192061C300E4E804 /* RSMUUID.m */; };
+		5EA4B9EF1920629700E4E804 /* MIMUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9EE1920629700E4E804 /* MIMUserService.m */; };
+		5EA4B9F21920E3E500E4E804 /* MIMUserMoodOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F11920E3E500E4E804 /* MIMUserMoodOperation.m */; };
+		5EA4B9F51920E57F00E4E804 /* MIMConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */; };
+		5EA4B9F81920F17800E4E804 /* MIMUserPhysicalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +79,42 @@
 		5EA4B9B21920475100E4E804 /* MIMLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMLocationManager.h; sourceTree = "<group>"; };
 		5EA4B9B31920475100E4E804 /* MIMLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMLocationManager.m; sourceTree = "<group>"; };
 		5EA4B9B5192048D200E4E804 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5EA4B9BC192061C300E4E804 /* NSString+RestServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RestServiceManager.h"; sourceTree = "<group>"; };
+		5EA4B9BD192061C300E4E804 /* NSString+RestServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RestServiceManager.m"; sourceTree = "<group>"; };
+		5EA4B9BF192061C300E4E804 /* RSMBaseResultParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMBaseResultParser.h; sourceTree = "<group>"; };
+		5EA4B9C0192061C300E4E804 /* RSMBaseResultParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMBaseResultParser.m; sourceTree = "<group>"; };
+		5EA4B9C1192061C300E4E804 /* RSMHHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMHHTTPConnection.h; sourceTree = "<group>"; };
+		5EA4B9C2192061C300E4E804 /* RSMHHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMHHTTPConnection.m; sourceTree = "<group>"; };
+		5EA4B9C3192061C300E4E804 /* RSMServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMServices.h; sourceTree = "<group>"; };
+		5EA4B9C4192061C300E4E804 /* RSMServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMServices.m; sourceTree = "<group>"; };
+		5EA4B9C5192061C300E4E804 /* RSMServicesError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMServicesError.h; sourceTree = "<group>"; };
+		5EA4B9C6192061C300E4E804 /* RSMServicesError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMServicesError.m; sourceTree = "<group>"; };
+		5EA4B9C8192061C300E4E804 /* RSMBaseNetworkService+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSMBaseNetworkService+Protected.h"; sourceTree = "<group>"; };
+		5EA4B9C9192061C300E4E804 /* RSMBaseNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMBaseNetworkService.h; sourceTree = "<group>"; };
+		5EA4B9CA192061C300E4E804 /* RSMBaseNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMBaseNetworkService.m; sourceTree = "<group>"; };
+		5EA4B9CC192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSMAsyncParserConcurrentServiceMethod+Protected.h"; sourceTree = "<group>"; };
+		5EA4B9CD192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMAsyncParserConcurrentServiceMethod.h; sourceTree = "<group>"; };
+		5EA4B9CE192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMAsyncParserConcurrentServiceMethod.m; sourceTree = "<group>"; };
+		5EA4B9CF192061C300E4E804 /* RSMAsyncParserServiceMethod+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSMAsyncParserServiceMethod+Protected.h"; sourceTree = "<group>"; };
+		5EA4B9D0192061C300E4E804 /* RSMAsyncParserServiceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMAsyncParserServiceMethod.h; sourceTree = "<group>"; };
+		5EA4B9D1192061C300E4E804 /* RSMAsyncParserServiceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMAsyncParserServiceMethod.m; sourceTree = "<group>"; };
+		5EA4B9D2192061C300E4E804 /* RSMBaseServiceMethod+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RSMBaseServiceMethod+Protected.h"; sourceTree = "<group>"; };
+		5EA4B9D3192061C300E4E804 /* RSMBaseServiceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMBaseServiceMethod.h; sourceTree = "<group>"; };
+		5EA4B9D4192061C300E4E804 /* RSMBaseServiceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMBaseServiceMethod.m; sourceTree = "<group>"; };
+		5EA4B9D5192061C300E4E804 /* RSMConcurrentServiceMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMConcurrentServiceMethod.h; sourceTree = "<group>"; };
+		5EA4B9D6192061C300E4E804 /* RSMConcurrentServiceMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMConcurrentServiceMethod.m; sourceTree = "<group>"; };
+		5EA4B9D8192061C300E4E804 /* RSMServiceOperationInvocationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMServiceOperationInvocationList.h; sourceTree = "<group>"; };
+		5EA4B9D9192061C300E4E804 /* RSMServiceOperationInvocationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMServiceOperationInvocationList.m; sourceTree = "<group>"; };
+		5EA4B9DA192061C300E4E804 /* RSMUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMUUID.h; sourceTree = "<group>"; };
+		5EA4B9DB192061C300E4E804 /* RSMUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMUUID.m; sourceTree = "<group>"; };
+		5EA4B9ED1920629700E4E804 /* MIMUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMUserService.h; sourceTree = "<group>"; };
+		5EA4B9EE1920629700E4E804 /* MIMUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMUserService.m; sourceTree = "<group>"; };
+		5EA4B9F01920E3E500E4E804 /* MIMUserMoodOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMUserMoodOperation.h; sourceTree = "<group>"; };
+		5EA4B9F11920E3E500E4E804 /* MIMUserMoodOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMUserMoodOperation.m; sourceTree = "<group>"; };
+		5EA4B9F31920E57F00E4E804 /* MIMConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMConnectivity.h; sourceTree = "<group>"; };
+		5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMConnectivity.m; sourceTree = "<group>"; };
+		5EA4B9F61920F17800E4E804 /* MIMUserPhysicalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMUserPhysicalOperation.h; sourceTree = "<group>"; };
+		5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMUserPhysicalOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +177,10 @@
 			isa = PBXGroup;
 			children = (
 				5EA4B99E192037DB00E4E804 /* Controllers */,
+				5EA4B9DC192061C300E4E804 /* Services */,
 				5EA4B9A3192037DB00E4E804 /* Storyboards */,
 				5EA4B9B01920474100E4E804 /* Utilities */,
+				5EA4B9BA192061C300E4E804 /* RestServiceManager */,
 				5EA4B972192036E500E4E804 /* MIMAppDelegate.h */,
 				5EA4B973192036E500E4E804 /* MIMAppDelegate.m */,
 				5EA4B981192036E500E4E804 /* Images.xcassets */,
@@ -199,6 +253,120 @@
 				5EA4B9B31920475100E4E804 /* MIMLocationManager.m */,
 			);
 			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		5EA4B9BA192061C300E4E804 /* RestServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9BB192061C300E4E804 /* Categories */,
+				5EA4B9BE192061C300E4E804 /* Parser */,
+				5EA4B9C1192061C300E4E804 /* RSMHHTTPConnection.h */,
+				5EA4B9C2192061C300E4E804 /* RSMHHTTPConnection.m */,
+				5EA4B9C3192061C300E4E804 /* RSMServices.h */,
+				5EA4B9C4192061C300E4E804 /* RSMServices.m */,
+				5EA4B9C5192061C300E4E804 /* RSMServicesError.h */,
+				5EA4B9C6192061C300E4E804 /* RSMServicesError.m */,
+				5EA4B9C7192061C300E4E804 /* Service */,
+				5EA4B9CB192061C300E4E804 /* ServiceMethods */,
+				5EA4B9D7192061C300E4E804 /* Utility */,
+			);
+			path = RestServiceManager;
+			sourceTree = "<group>";
+		};
+		5EA4B9BB192061C300E4E804 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9BC192061C300E4E804 /* NSString+RestServiceManager.h */,
+				5EA4B9BD192061C300E4E804 /* NSString+RestServiceManager.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5EA4B9BE192061C300E4E804 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9BF192061C300E4E804 /* RSMBaseResultParser.h */,
+				5EA4B9C0192061C300E4E804 /* RSMBaseResultParser.m */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		5EA4B9C7192061C300E4E804 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9C8192061C300E4E804 /* RSMBaseNetworkService+Protected.h */,
+				5EA4B9C9192061C300E4E804 /* RSMBaseNetworkService.h */,
+				5EA4B9CA192061C300E4E804 /* RSMBaseNetworkService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5EA4B9CB192061C300E4E804 /* ServiceMethods */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9CC192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod+Protected.h */,
+				5EA4B9CD192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.h */,
+				5EA4B9CE192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m */,
+				5EA4B9CF192061C300E4E804 /* RSMAsyncParserServiceMethod+Protected.h */,
+				5EA4B9D0192061C300E4E804 /* RSMAsyncParserServiceMethod.h */,
+				5EA4B9D1192061C300E4E804 /* RSMAsyncParserServiceMethod.m */,
+				5EA4B9D2192061C300E4E804 /* RSMBaseServiceMethod+Protected.h */,
+				5EA4B9D3192061C300E4E804 /* RSMBaseServiceMethod.h */,
+				5EA4B9D4192061C300E4E804 /* RSMBaseServiceMethod.m */,
+				5EA4B9D5192061C300E4E804 /* RSMConcurrentServiceMethod.h */,
+				5EA4B9D6192061C300E4E804 /* RSMConcurrentServiceMethod.m */,
+			);
+			path = ServiceMethods;
+			sourceTree = "<group>";
+		};
+		5EA4B9D7192061C300E4E804 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9D8192061C300E4E804 /* RSMServiceOperationInvocationList.h */,
+				5EA4B9D9192061C300E4E804 /* RSMServiceOperationInvocationList.m */,
+				5EA4B9DA192061C300E4E804 /* RSMUUID.h */,
+				5EA4B9DB192061C300E4E804 /* RSMUUID.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5EA4B9DC192061C300E4E804 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9E91920626300E4E804 /* User */,
+				5EA4B9F31920E57F00E4E804 /* MIMConnectivity.h */,
+				5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5EA4B9E91920626300E4E804 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9EA1920626300E4E804 /* Operations */,
+				5EA4B9EC1920626300E4E804 /* Protocols */,
+				5EA4B9ED1920629700E4E804 /* MIMUserService.h */,
+				5EA4B9EE1920629700E4E804 /* MIMUserService.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		5EA4B9EA1920626300E4E804 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9F01920E3E500E4E804 /* MIMUserMoodOperation.h */,
+				5EA4B9F11920E3E500E4E804 /* MIMUserMoodOperation.m */,
+				5EA4B9F61920F17800E4E804 /* MIMUserPhysicalOperation.h */,
+				5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		5EA4B9EC1920626300E4E804 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,10 +472,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA4B9B41920475100E4E804 /* MIMLocationManager.m in Sources */,
+				5EA4B9E1192061C300E4E804 /* RSMServicesError.m in Sources */,
+				5EA4B9EF1920629700E4E804 /* MIMUserService.m in Sources */,
+				5EA4B9E2192061C300E4E804 /* RSMBaseNetworkService.m in Sources */,
+				5EA4B9DF192061C300E4E804 /* RSMHHTTPConnection.m in Sources */,
+				5EA4B9E8192061C300E4E804 /* RSMUUID.m in Sources */,
 				5EA4B9A8192037DB00E4E804 /* MIMFirstViewController.m in Sources */,
 				5EA4B974192036E500E4E804 /* MIMAppDelegate.m in Sources */,
+				5EA4B9E4192061C300E4E804 /* RSMAsyncParserServiceMethod.m in Sources */,
+				5EA4B9DE192061C300E4E804 /* RSMBaseResultParser.m in Sources */,
+				5EA4B9F21920E3E500E4E804 /* MIMUserMoodOperation.m in Sources */,
+				5EA4B9E7192061C300E4E804 /* RSMServiceOperationInvocationList.m in Sources */,
+				5EA4B9E5192061C300E4E804 /* RSMBaseServiceMethod.m in Sources */,
+				5EA4B9F81920F17800E4E804 /* MIMUserPhysicalOperation.m in Sources */,
+				5EA4B9DD192061C300E4E804 /* NSString+RestServiceManager.m in Sources */,
+				5EA4B9F51920E57F00E4E804 /* MIMConnectivity.m in Sources */,
+				5EA4B9E6192061C300E4E804 /* RSMConcurrentServiceMethod.m in Sources */,
+				5EA4B9E3192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m in Sources */,
 				5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */,
 				5EA4B970192036E500E4E804 /* main.m in Sources */,
+				5EA4B9E0192061C300E4E804 /* RSMServices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

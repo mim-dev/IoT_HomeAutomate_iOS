@@ -10,4 +10,8 @@
 
 @interface MIMSecondViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UIButton *button;
+
+- (IBAction)button_touchUpInside:(id)sender;
+
 @end
