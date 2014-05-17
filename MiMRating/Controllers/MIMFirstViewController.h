@@ -10,8 +10,10 @@
 
 @interface MIMFirstViewController : UIViewController
 
-@property (nonatomic, strong) IBOutlet UIButton *button;
-
-- (IBAction)button_touchUpInside:(id)sender;
+- (IBAction)button1_touchUpInside:(id)sender;
+- (IBAction)button2_touchUpInside:(id)sender;
+- (IBAction)button3_touchUpInside:(id)sender;
+- (IBAction)button4_touchUpInside:(id)sender;
+- (IBAction)button5_touchUpInside:(id)sender;
 
 @end

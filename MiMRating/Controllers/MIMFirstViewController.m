@@ -39,9 +39,29 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)button_touchUpInside:(id)sender
+- (IBAction)button1_touchUpInside:(id)sender
 {
-	[self reportMoodRating:3];
+	[self reportMoodRating:10];
+}
+
+- (IBAction)button2_touchUpInside:(id)sender
+{
+	[self reportMoodRating:8];
+}
+
+- (IBAction)button3_touchUpInside:(id)sender
+{
+	[self reportMoodRating:5];
+}
+
+- (IBAction)button4_touchUpInside:(id)sender
+{
+	[self reportMoodRating:2];
+}
+
+- (IBAction)button5_touchUpInside:(id)sender
+{
+	[self reportMoodRating:0];
 }
 
 - (void)reportMoodRating:(NSInteger)aRating
@@ -68,8 +88,6 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
 							  [self displayAlertWithTitle:kErrorTitle
 												  message:kFailureMessage];
 						  }
-						  
-						  NSLog(@"error");
 					  }];
 	} else {
 		[self displayAlertWithTitle:kErrorTitle
