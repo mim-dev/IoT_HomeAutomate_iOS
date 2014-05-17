@@ -43,6 +43,7 @@ static NSString * const kAction = @"reportinguser/mood";
 		_date = aDate;
 		_rating = aRating;
 		_timeOutInterval = aTimeOutInterval;
+		_completionBlock = aCompletionBlock;
 	}
 	return self;
 }

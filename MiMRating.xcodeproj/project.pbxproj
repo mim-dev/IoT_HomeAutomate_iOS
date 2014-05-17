@@ -41,6 +41,7 @@
 		5EA4B9F21920E3E500E4E804 /* MIMUserMoodOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F11920E3E500E4E804 /* MIMUserMoodOperation.m */; };
 		5EA4B9F51920E57F00E4E804 /* MIMConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */; };
 		5EA4B9F81920F17800E4E804 /* MIMUserPhysicalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */; };
+		5EA4BA00192712FA00E4E804 /* MIMReportingUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9FF192712FA00E4E804 /* MIMReportingUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMConnectivity.m; sourceTree = "<group>"; };
 		5EA4B9F61920F17800E4E804 /* MIMUserPhysicalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMUserPhysicalOperation.h; sourceTree = "<group>"; };
 		5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMUserPhysicalOperation.m; sourceTree = "<group>"; };
+		5EA4B9FE192712FA00E4E804 /* MIMReportingUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMReportingUser.h; sourceTree = "<group>"; };
+		5EA4B9FF192712FA00E4E804 /* MIMReportingUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMReportingUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,7 @@
 		5EA4B969192036E500E4E804 /* MiMRating */ = {
 			isa = PBXGroup;
 			children = (
+				5EA4B9FD192712EB00E4E804 /* Models */,
 				5EA4B99E192037DB00E4E804 /* Controllers */,
 				5EA4B9DC192061C300E4E804 /* Services */,
 				5EA4B9A3192037DB00E4E804 /* Storyboards */,
@@ -369,6 +373,15 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		5EA4B9FD192712EB00E4E804 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4B9FE192712FA00E4E804 /* MIMReportingUser.h */,
+				5EA4B9FF192712FA00E4E804 /* MIMReportingUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,6 +503,7 @@
 				5EA4B9E6192061C300E4E804 /* RSMConcurrentServiceMethod.m in Sources */,
 				5EA4B9E3192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m in Sources */,
 				5EA4B9A9192037DB00E4E804 /* MIMSecondViewController.m in Sources */,
+				5EA4BA00192712FA00E4E804 /* MIMReportingUser.m in Sources */,
 				5EA4B970192036E500E4E804 /* main.m in Sources */,
 				5EA4B9E0192061C300E4E804 /* RSMServices.m in Sources */,
 			);
