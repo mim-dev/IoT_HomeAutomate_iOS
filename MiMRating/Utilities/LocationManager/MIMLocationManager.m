@@ -45,7 +45,7 @@ NSString * const MIMLocationManagerErrorNotification = @"com.mim-development.loc
     _locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
 	
     // Set a movement threshold for new events.
-    _locationManager.distanceFilter = 500; // meters
+    _locationManager.distanceFilter = 5000; // meters
 	
     [_locationManager startUpdatingLocation];
 }
