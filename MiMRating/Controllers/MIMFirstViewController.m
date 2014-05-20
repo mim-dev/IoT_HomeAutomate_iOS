@@ -52,17 +52,17 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
 
 - (IBAction)button1_touchUpInside:(id)sender
 {
-	[self reportMoodRating:10];
+	[self reportMoodRating:5];
 }
 
 - (IBAction)button2_touchUpInside:(id)sender
 {
-	[self reportMoodRating:8];
+	[self reportMoodRating:4];
 }
 
 - (IBAction)button3_touchUpInside:(id)sender
 {
-	[self reportMoodRating:5];
+	[self reportMoodRating:3];
 }
 
 - (IBAction)button4_touchUpInside:(id)sender
@@ -72,7 +72,7 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
 
 - (IBAction)button5_touchUpInside:(id)sender
 {
-	[self reportMoodRating:0];
+	[self reportMoodRating:1];
 }
 
 - (void)reportMoodRating:(NSInteger)aRating
