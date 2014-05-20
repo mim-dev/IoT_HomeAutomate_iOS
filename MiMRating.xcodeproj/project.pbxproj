@@ -42,6 +42,7 @@
 		5EA4B9F51920E57F00E4E804 /* MIMConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F41920E57F00E4E804 /* MIMConnectivity.m */; };
 		5EA4B9F81920F17800E4E804 /* MIMUserPhysicalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */; };
 		5EA4BA00192712FA00E4E804 /* MIMReportingUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4B9FF192712FA00E4E804 /* MIMReportingUser.m */; };
+		5EAB2055192AD53400D46712 /* MIMActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB2054192AD53400D46712 /* MIMActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		5EA4B9F71920F17800E4E804 /* MIMUserPhysicalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMUserPhysicalOperation.m; sourceTree = "<group>"; };
 		5EA4B9FE192712FA00E4E804 /* MIMReportingUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMReportingUser.h; sourceTree = "<group>"; };
 		5EA4B9FF192712FA00E4E804 /* MIMReportingUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMReportingUser.m; sourceTree = "<group>"; };
+		5EAB2053192AD53400D46712 /* MIMActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIMActivityIndicatorView.h; sourceTree = "<group>"; };
+		5EAB2054192AD53400D46712 /* MIMActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIMActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +248,7 @@
 		5EA4B9B01920474100E4E804 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				5EAB2052192AD53400D46712 /* ActivityIndicator */,
 				5EA4B9B11920474100E4E804 /* LocationManager */,
 			);
 			path = Utilities;
@@ -382,6 +386,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		5EAB2052192AD53400D46712 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				5EAB2053192AD53400D46712 /* MIMActivityIndicatorView.h */,
+				5EAB2054192AD53400D46712 /* MIMActivityIndicatorView.m */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -499,6 +512,7 @@
 				5EA4B9E5192061C300E4E804 /* RSMBaseServiceMethod.m in Sources */,
 				5EA4B9F81920F17800E4E804 /* MIMUserPhysicalOperation.m in Sources */,
 				5EA4B9DD192061C300E4E804 /* NSString+RestServiceManager.m in Sources */,
+				5EAB2055192AD53400D46712 /* MIMActivityIndicatorView.m in Sources */,
 				5EA4B9F51920E57F00E4E804 /* MIMConnectivity.m in Sources */,
 				5EA4B9E6192061C300E4E804 /* RSMConcurrentServiceMethod.m in Sources */,
 				5EA4B9E3192061C300E4E804 /* RSMAsyncParserConcurrentServiceMethod.m in Sources */,

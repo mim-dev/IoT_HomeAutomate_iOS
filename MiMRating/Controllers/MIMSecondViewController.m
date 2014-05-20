@@ -10,6 +10,7 @@
 #import "MIMLocationManager.h"
 #import "MIMUserService.h"
 #import "MIMReportingUser.h"
+#import "MIMActivityIndicatorView.h"
 
 static NSString * const kErrorTitle = @"Error";
 static NSString * const kCancelTitle = @"OK";
@@ -25,12 +26,22 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
 
 @end
 
-@implementation MIMSecondViewController
+@implementation MIMSecondViewController {
+	
+	MIMActivityIndicatorView *_activityIndicator;
+	
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+	_activityIndicator = [[MIMActivityIndicatorView alloc] initWithParentFrame:self.view.frame];
 }
 
 - (void)didReceiveMemoryWarning
@@ -90,24 +101,38 @@ static NSString * const kLocationMessage = @"Unable to determine your location";
 		
 		MIMReportingUser *user = [MIMReportingUser new];
 		
+		__weak id weakSelf = self;
 		NSError * __autoreleasing error = nil;
 		MIMUserService *service = [MIMUserService sharedInstance];
-		[service postPhysicalWithUsername:user.username
-								 password:user.password
-								 location:locationManager.location
-									 date:[NSDate date]
-								   rating:[NSNumber numberWithInteger:aRating]
-									error:&error
-						  completionBlock:^(NSError *error){
-							  
-							  if (error == nil) {
-								  [self displayAlertWithTitle:nil
-													  message:kSuccessMessage];
-							  } else {
-								  [self displayAlertWithTitle:kErrorTitle
-													  message:kFailureMessage];
-							  }
-						  }];
+		NSString *instanceIdentifier = [service postPhysicalWithUsername:user.username
+																password:user.password
+																location:locationManager.location
+																	date:[NSDate date]
+																  rating:[NSNumber numberWithInteger:aRating]
+																   error:&error
+														 completionBlock:^(NSError *error){
+															 MIMSecondViewController *strongSelf = weakSelf;
+															 [strongSelf.view setUserInteractionEnabled:YES];
+															 [_activityIndicator removeFromSuperview];
+															 
+															 if (error == nil) {
+																 [self displayAlertWithTitle:nil
+																					 message:kSuccessMessage];
+															 } else {
+																 [self displayAlertWithTitle:kErrorTitle
+																					 message:kFailureMessage];
+															 }
+														 }];
+		
+		if (instanceIdentifier != nil && [instanceIdentifier length] > 0) {
+			[self.view setUserInteractionEnabled:NO];
+			[self.view addSubview:_activityIndicator];
+			[_activityIndicator setDisplayText:@"Recording Rating"];
+			[_activityIndicator startAnimating];
+		} else {
+			[self displayAlertWithTitle:kErrorTitle
+								message:kFailureMessage];
+		}
 	} else {
 		[self displayAlertWithTitle:kErrorTitle
 							message:kLocationMessage];
